@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url("https://yt3.ggpht.com/ytc/AAUvwngJY1iCHi9qHkOyPYVjIzSqR5pkJVZmebcEqxVL=s900-c-k-c0x00ffffff-no-rj") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	height: 100vh;
+	font-family: "segoe UI";
+}
+h1{
+	margin-bottom: 10px;
+	color: #99FF33;
+	text-align: center;
+	background: url("https://yt3.ggpht.com/ytc/AAUvwngJY1iCHi9qHkOyPYVjIzSqR5pkJVZmebcEqxVL=s900-c-k-c0x00ffffff-no-rj");
+	column-span: all;
+	font-size: 800%;
+}
+h2{
+	color: #0789c9;
+	font-size: 100%;
+}
+h3{
+	color: red;
+	text-align: center;
+	column-span:all;
+}
+h4{
+	text-align: center;
+}
+footer{
+	column-span: all;
+}
+p{
+	margin-bottom: 5px;
+}
+img{
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+	column-span: auto;
+}
+main{
+	background-color: #fff550;
+	padding: 30px;
+	margin: 50px auto;
+	max-width: 1000px;
+	display: block;
+	column-count:2;
+	text-align: justify;
+	column-gap:60px;
+	column.rule:30px solid #bbbbbb;
+	column-width:120px;
+}
